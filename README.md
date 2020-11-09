@@ -1,2 +1,2 @@
 # FoodReview
-A Food Review Website.
+A Food Review Website to find the right hotels.
