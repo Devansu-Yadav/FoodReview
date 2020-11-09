@@ -124,7 +124,7 @@
   }
   #title {
     overflow: hidden;
-    height: 150px;
+    height: 168px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -133,7 +133,7 @@
   
   .text h4 {
     font-family: "Oswald";
-    font-size: 115px;
+    font-size: 79px;
     color: white;
     position: relative;
   }
