@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let background = document.querySelector(".background");
     let indices = document.querySelectorAll(".index");
   
-    let bgImgs = ["Breakfast_bg.png", "Lunch_bg.jpg", "Dinner_bg.png", "Dessert_bg.png"];
+    let bgImgs = ["Oberoi_bg.png", "sahara-star_bg.png", "Intercontinental_bg.png", "Taj_bg.png"];
   
     let currentIndex = 0;
   
