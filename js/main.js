@@ -14,7 +14,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let background = document.querySelector(".background");
     let indices = document.querySelectorAll(".index");
   
-    let bgImgs = ["Oberoi_bg.png", "sahara-star_bg.png", "Intercontinental_bg.png", "Taj_bg.png"];
+    let bgImgs = ["Italy_img.jpg", "North India.jpg", "South India.jpg", "China.jpg"];
   
     let currentIndex = 0;
   
@@ -106,25 +106,25 @@ document.addEventListener("DOMContentLoaded", () => {
   
     function showText(direction) {
       if (titleDisplacement === 0 && direction === "prev") {
-        titleDisplacement = -540;
-      } else if (titleDisplacement === -540 && direction === "next") {
+        titleDisplacement = -300;
+      } else if (titleDisplacement === -300 && direction === "next") {
         titleDisplacement = 0;
       } else {
-        titleDisplacement = (direction === "next") ? titleDisplacement - 180 : titleDisplacement + 180;
+        titleDisplacement = (direction === "next") ? titleDisplacement - 100 : titleDisplacement + 100;
       }
   
   
       if (descriptionDisplacement === 0 && direction === "prev") {
-        descriptionDisplacement = -165;
+        descriptionDisplacement = -270;
       }
-      else if (descriptionDisplacement === -165 && direction === "next") {
+      else if (descriptionDisplacement === -270 && direction === "next") {
         descriptionDisplacement = 0;
       }
       else {
         descriptionDisplacement =
           direction === "next"
-            ? descriptionDisplacement - 55
-            : descriptionDisplacement + 55;
+            ? descriptionDisplacement - 90
+            : descriptionDisplacement + 90;
       }
       let title = document.querySelectorAll("#title h4");
       let description = document.querySelectorAll("#description p");
